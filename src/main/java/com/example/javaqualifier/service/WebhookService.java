@@ -18,9 +18,9 @@ public class WebhookService {
         String url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
 
         Map<String, Object> body = new HashMap<>();
-        body.put("name", "Your Name");
+        body.put("name", "Aakanksha Gupta");
         body.put("regNo", "22bec1260");  // <-- your reg no
-        body.put("email", "yourmail@example.com");
+        body.put("email", "gupta.aakanksha2003@gmail.com");
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
